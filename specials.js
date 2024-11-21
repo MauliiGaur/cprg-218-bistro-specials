@@ -1,7 +1,7 @@
 const currentDate = new Date();
 console.log(currentDate);
 //const day = currentDate.getDay(); /* 0-6 Sunday is 0, Saturday is 6*/
-const day = ;
+const day = currentDate.getDay();
 console.log(day);
 
 if(day==0){
