@@ -1,7 +1,7 @@
 const currentDate = new Date();
 console.log(currentDate);
 //const day = currentDate.getDay(); /* 0-6 Sunday is 0, Saturday is 6*/
-const day = 5;
+const day = ;
 console.log(day);
 
 if(day==0){
@@ -38,9 +38,15 @@ if(day==2){
 
       if(day==5){
         special_title.innerHTML = "Half Price Cocktails All Day";
-        special_image.src = "images/Friday.jpg";
+        special_image.src = "images/friday.jpg";
         special_description.innerHTML = "50% off our regular price. Our customers rave about our Greek Salad, so we want to give everyone a chance to try it.  Get a full sized Greek Salad at a great price.";
         }
+
+        if(day==6){
+          special_title.innerHTML = "$10 Jumbo Greek Salad";
+          special_image.src = "images/saturday.jpg";
+          special_description.innerHTML = "50% off our regular price. Our customers rave about our Greek Salad, so we want to give everyone a chance to try it.  Get a full sized Greek Salad at a great price.";
+          }
 
 
 
